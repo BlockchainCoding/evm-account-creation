@@ -1,0 +1,25 @@
+{
+  "name": "evm-account-creation",
+  "version": "1.0.0",
+  "description": "Learn how to programmatically create EVM compatible accounts in Javascript.",
+  "type": "module",
+  "main": "createAccount.js",
+  "scripts": {
+    "createAccount": "node createAccount.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlockchainCoding/evm-account-creation.git"
+  },
+  "keywords": [
+    "evm",
+    "account",
+    "ethereum"
+  ],
+  "author": "Blockchain Coding",
+  "license": "MIT",
+  "homepage": "https://github.com/BlockchainCoding/evm-account-creation#readme",
+  "dependencies": {
+    "ethers": "^6.6.5"
+  }
+}
